@@ -1,9 +1,9 @@
-Algoritmo "ExercÌcio 3"
-// Disciplina   : [Linguagem e LÛgica de ProgramaÁ„o]
+Algoritmo "Exerc√≠cio 3"
+// Disciplina   : [Linguagem e L√≥gica de Programa√ß√£o]
 // Professor   : Carlos
-// DescriÁ„o   : FaÁa um algoritmo que leia dois valores inteiros A e B se os valores forem iguais dever· se
-//somar os dois, caso contr·rio multiplique A por B. Ao final de qualquer um dos c·lculos deve-se
-//atribuir o resultado para uma vari·vel C e mostrar seu conte˙do na tela.
+// Descri√ß√£o   : Fa√ßa um algoritmo que leia dois valores inteiros A e B se os valores forem iguais dever√° se
+//somar os dois, caso contr√°rio multiplique A por B. Ao final de qualquer um dos c√°lculos deve-se
+//atribuir o resultado para uma vari√°vel C e mostrar seu conte√∫do na tela.
 // Autor(a)    : Gisele Leite de Deus
 // Data atual  : 04/04/2023
 
@@ -14,7 +14,7 @@ soma, multiplicacao:real
 
 Inicio
 
-//Impress„o para o usu·rio.
+//Impress√£o para o usu√°rio.
 escreval("Bem-Vindo!")
 escreval(" ")
 escreval("Digite o Valor A: ")
@@ -24,12 +24,12 @@ leia(numero2)
 
 limpatela
 
-//Expressıes N˙mericas
+//Express√µes N√∫mericas
 soma <- (numero1+numero2)
 multiplicacao <- (numero1*numero2)
 
-//Condicional SE Composta com atribuiÁ„o de valor C
-se (numero1=numero2) ent„o
+//Condicional SE Composta com atribui√ß√£o de valor C
+se (numero1=numero2) ent√£o
 soma <- (numero1+numero2)
 escreval("Resultado: ",soma)
 senao
@@ -37,6 +37,7 @@ multiplicacao <- (numero1*numero2)
 escreval("Resultado: ",multiplicacao)
 fimse
 
+//Impress√£o para o Usu√°rio dos valores escolhidos
 escreval(" ")
 escreval("Valor A: ",numero1)
 escreval("Valor B: ",numero2)
