@@ -1,7 +1,7 @@
-Algoritmo "Exercício 4"
-// Disciplina   : [Linguagem e L?gica de Programa??o]
+Algoritmo "ExercÃ­cio 4"
+// Disciplina   : [Linguagem e LÃ³gica de ProgramaÃ§Ã£o]
 // Professor   : Carlos
-// Descrição   : Se o cliente comprar mais de 8 Kg em frutas ou o valor total da compra ultrapassar R$ 25,00,
+// DescriÃ§Ã£o   : Se o cliente comprar mais de 8 Kg em frutas ou o valor total da compra ultrapassar R$ 25,00,
 //receber? ainda um desconto de 10% sobre este total. Escreva um algoritmo para ler a
 //quantidade (em Kg) de morangos e a quantidade (em Kg) de ma?as adquiridas e escreva o valor
 //a ser pago pelo cliente.
@@ -15,12 +15,12 @@ quantidademacas, quantidademorangos: inteiro
 
 Inicio
 
-//Função do usuário...
+//FunÃ§Ã£o do usuÃ¡rio...
 escreval("Bem-Vindo a Fruteira dos Doramas!")
 escreval(" ")
-escreval("Quantos Morangos, você deseja?")
+escreval("Quantos Morangos, vocÃª deseja?")
 leia(quantidademorangos)
-escreval("Quantas Maças, você deseja?")
+escreval("Quantas MaÃ§as, vocÃª deseja?")
 leia(quantidademacas)
 
 limpatela
@@ -32,29 +32,29 @@ senao
 precomorangos <- (2.20*quantidademorangos)
 fimse
 
-//Condicional SE Composta para os Maça
+//Condicional SE Composta para os MaÃ§as
 se (quantidademacas<=5) entao
 precomacas <- (1.80*quantidademacas)
 senao
 precomacas <- (1.50*quantidademacas)
 fimse
 
-//Soma da quantidade com e o preço
+//Soma da quantidade e do preÃ§o
 somadasfrutas <-(quantidademacas+quantidademorangos)
 somadosprecos <-(precomacas+precomorangos)
 
 //Condicional SE Composta com
-se (somadasfrutas>=8) ou (somadosprecos>=25) então
+se (somadasfrutas>=8) ou (somadosprecos>=25) entÃ£o
 valorfinal<- (somadosprecos-(somadosprecos*0.1))
 escreval("Valor a ser pago: ", valorfinal:6:2)
-senão
+senÃ£o
 escreval("Valor a ser pago: ", somadosprecos:6:2)
 fimse
 
-//Impressão para o usuários
+//ImpressÃ£o para o usuÃ¡rios
 escreval(" ")
 escreval("Quantidade de Morangos: ",quantidademorangos)
-escreval("Quantidade de Maças: ",quantidademacas)
+escreval("Quantidade de MaÃ§as: ",quantidademacas)
 //fim
 
 
