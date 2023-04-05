@@ -1,8 +1,8 @@
-Algoritmo "ExercÌcio 2"
-// Disciplina   : [Linguagem e LÛgica de ProgramaÁ„o]
+Algoritmo "Exerc√≠cio 2"
+// Disciplina   : [Linguagem e L√≥gica de Programa√ß√£o]
 // Professor   : Carlos
-// DescriÁ„o   : FaÁa um algoritmo que leia o nome, o sexo e o estado civil de uma pessoa. Caso sexo seja ìFî e
-//estado civil seja ìCASADAî, solicitar o tempo de casada (anos). Por fim, mostre os dados do usu·rio.
+// Descri√ß√£o   : Fa√ßa um algoritmo que leia o nome, o sexo e o estado civil de uma pessoa. Caso sexo seja ‚ÄúF‚Äù e
+//estado civil seja ‚ÄúCASADA‚Äù, solicitar o tempo de casada (anos). Por fim, mostre os dados do usu√°rio.
 // Autor(a)    : Gisele Leite de Deus
 // Data atual  : 03/04/2023
 
@@ -13,12 +13,12 @@ anosdecasada: inteiro
 
 Inicio
 
-//AÁ„o do Usu·rio.
+//A√ß√£o do Usu√°rio.
 escreval("Bem-Vindo!")
 escreval(" ")
 escreval("Qual seu nome?")
 leia(nome)
-escreval("Qual seu gÍnero? Escreva 'F' para Feminino e 'M' para Masculino.")
+escreval("Qual seu g√™nero? Escreva 'F' para Feminino e 'M' para Masculino.")
 leia(sexo)
 escreval("Qual o seu estado civil?")
 leia(estadocivil)
@@ -26,20 +26,20 @@ leia(estadocivil)
 limpatela
 
 //Condicional SE Composta para caso seja, sexo feminino e casada.
-se (sexo= "F") e (estadocivil= "casada") ent„o
+se (sexo= "F") e (estadocivil= "casada") ent√£o
   escreval("Quantos anos de casamento?")
   leia(anosdecasada)
+limpatela
   escreval("Obrigado por participar!")
-  sen„o
+  escreval("Anos de Casamento: ",anosdecasada)
+  sen√£o
   escreval("Obrigado por participar da pesquisa!")
   fimse
   
-//Impress„o:
-escreval(" ")
+//Impress√£o:
 escreval("Nome: ",nome)
-escreval("GÍnero: ",sexo)
+escreval("G√™nero: ",sexo)
 escreval("Estado Civil: ",estadocivil)
-escreval("Anos de Casamento: ",anosdecasada)
 
 
 
