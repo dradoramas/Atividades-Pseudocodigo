@@ -16,7 +16,7 @@ quantidademacas, quantidademorangos: inteiro
 Inicio
 
 //Função do usuário...
-escreval("Bem-Vindo a Fruteira dos Doramas!")
+escreval("Bem-Vindo a Fruteira do Doramas!")
 escreval(" ")
 escreval("Quantos Kilos de Morangos, você deseja?")
 leia(quantidademorangos)
