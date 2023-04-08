@@ -12,7 +12,7 @@ usuário.
 somar os dois, caso contrário multiplique A por B. Ao final de qualquer um dos cálculos deve-se
 atribuir o resultado para uma variável C e mostrar seu conteúdo na tela.
 
-4.Se o cliente comprar mais de 8 Kg em frutas ou o valor total da compra ultrapassar R$ 25,00,
+4. Se o cliente comprar mais de 8 Kg em frutas ou o valor total da compra ultrapassar R$ 25,00,
 receberá ainda um desconto de 10% sobre este total. Escreva um algoritmo para ler a
 quantidade (em Kg) de morangos e a quantidade (em Kg) de maças adquiridas e escreva o valor
 a ser pago pelo cliente.
@@ -45,6 +45,6 @@ máximo 30% da renda mensal do solicitante. Escreva um programa que leia a renda
 um solicitante, o valor total do empréstimo solicitado e o número de prestações que o solicitante
 deseja pagar e informe se o empréstimo pode ou não ser concedido.
 
-10.Escreva um algoritmo que leia o número de litros vendidos e o tipo de combustível (codificado da
+10. Escreva um algoritmo que leia o número de litros vendidos e o tipo de combustível (codificado da
 seguinte forma: A-álcool, G-gasolina), calcule e imprima o valor a ser pago pelo cliente sabendo-
 se que o preço do litro da gasolina é R$ 6,59 e o preço do litro do álcool é R$ 3,79.
