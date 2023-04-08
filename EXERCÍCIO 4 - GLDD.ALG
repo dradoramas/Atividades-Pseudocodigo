@@ -18,9 +18,9 @@ Inicio
 //Função do usuário...
 escreval("Bem-Vindo a Fruteira dos Doramas!")
 escreval(" ")
-escreval("Quantos Morangos, você deseja?")
+escreval("Quantos Kilos de Morangos, você deseja?")
 leia(quantidademorangos)
-escreval("Quantas Maças, você deseja?")
+escreval("Quantas Kilos de Maças, você deseja?")
 leia(quantidademacas)
 
 limpatela
