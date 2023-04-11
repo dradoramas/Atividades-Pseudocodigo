@@ -30,7 +30,7 @@ se (sexo= "F") e (estadocivil= "casada") então
   escreval("Quantos anos de casamento?")
   leia(anosdecasada)
 limpatela
-  escreval("Obrigado por participar!")
+  escreval("Obrigado por participar da pesquisa!")
   escreval("Anos de Casamento: ",anosdecasada)
   senão
   escreval("Obrigado por participar da pesquisa!")
